@@ -1,0 +1,42 @@
+2 IP : Master and Node
+Disable Swap
+
+
+
+1. Install RKE
+
+>> Download RKE Binary
+
+https://github.com/rancher/rke/releases/
+
+>> Using winscp dowload to server
+>> Rename to rke and copy to /usr/local/bin
+>> Change permission 777
+>> Testing :  # rke --version
+Output : rke version v1.0.6
+
+
+2. Install Docker
+
+https://ranchermanager.docs.rancher.com/v2.5/getting-started/installation-and-upgrade/installation-requirements/install-docker
+
+# curl https://releases.rancher.com/install-docker/20.10.sh | sh
+
+
+3. Creating Cluster Configuration file
+
+# rke config
+
+By doing this we will get cluster.yaml file
+
+>> Follow as per screen
+
+Later will run this cluster.yaml file
+
+
+
+4. Deploying Kubernetes
+
+# rke up
+
+
