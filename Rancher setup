@@ -1,7 +1,7 @@
-2 IP : Master and Node
-Disable Swap
-
-
+* 2 IP : Master and Node
+* Disable Swap
+* Share keys. Create new Authorized key file and copy past id rsa pub
+* check whether ssh bridgeadapterip  [Root login aaganum, Not user login. Athuvum password illama straight ah ulla poganum]
 
 1. Install RKE
 
